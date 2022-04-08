@@ -1,0 +1,143 @@
+/* Import czcionki */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* USTAWIENIA POCZĄTKOWE */
+body {
+    line-height: 1.8;
+    color: #898fa1;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #11245A;
+}
+
+a {
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+img {
+    width: 100%;
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* PASEK NAWIGACJI */
+.navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.logo-strony {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #3BE9A3 !important;
+}
+
+.navbar .nav-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #e93b81;
+}
+
+
+/* PIERWSZA SEKCJA */
+#start {
+    background: linear-gradient(rgba(17, 90, 18, 0.8), rgba(189, 1, 123, 0.5)), url(../img/brand-4205-hack-your-career-with-cognitive-science.png);
+    min-height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    display: flex;
+    align-items: center;
+}
+
+#start h1 {
+    font-weight: 700;
+}
+
+#home p {
+    max-width: 550px;
+    margin: 24px auto;
+}
+
+
+/* PRZYCISKI */
+.btn {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: #e93b81;
+    color: #3BE9A3;
+}
+
+.btn-brand:hover{
+    background-color: #ce2f6e;
+    color: #2FCE8F;
+}
+
+
+/* STOPKA - FOOTER */
+
+.footer-top {
+    padding-top: 80px;
+    padding-bottom: 30px;
+ }
+ 
+ .footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+ }
+ 
+ footer .footer-links a,
+ footer .ikonki-social a {
+    color: #898fa1;
+ }
+ 
+ footer .ikonki-social a {
+    font-size: 24px;
+ }
+ 
+ footer .footer-links a {
+    display: block;
+    font-weight: 400;
+ }
+ 
+ footer .ikonki-social a:hover,
+ footer .footer-links a:hover {
+    color: #E93B81;
+ }
+
+ .logo-text {
+        font-size: 22px;
+        text-transform: uppercase;
+        color: #3BE9A3 !important;
+ }
+
+ footer .title-sm {
+    color: #E93B81;
+ }
