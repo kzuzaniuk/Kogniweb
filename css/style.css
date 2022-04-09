@@ -80,6 +80,20 @@ section {
 }
 
 
+
+/* SEKCJA 2 */
+
+#temp2 {
+    min-height: 100vh;
+    background: linear-gradient(rgba(250, 118, 118, 0.877), rgba(158, 63, 63, 0.641));
+}
+
+/* SEKCJA 3 */
+#temp3 {
+    min-height: 100vh;
+    background: linear-gradient(rgba(118, 208, 250, 0.877), rgba(38, 56, 157, 0.641));
+}
+
 /* PRZYCISKI */
 .btn {
     font-weight: 700;
