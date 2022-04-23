@@ -287,7 +287,7 @@ a {
   height: 80px;
   margin-left: -40px;
   position: absolute;
-  color: #FFFFFF;
+  color: black;
   text-align: center;
   line-height: 80px;
   -webkit-transform: translate3d(0, 0, 0);
@@ -302,7 +302,7 @@ a {
   display: none;
 }
 
-.lines {
+/* .lines {
   width: 25px;
   height: 3px;
   background: #596778;
@@ -331,7 +331,7 @@ a {
 .line-3 {
   -webkit-transform: translate3d(0, 8px, 0);
   transform: translate3d(0, 8px, 0);
-}
+} */
 
 .menu-open:checked + .menu-open-button .line-1 {
   -webkit-transform: translate3d(0, 0, 0) rotate(45deg);
