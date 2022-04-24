@@ -70,7 +70,7 @@ section {
 
 /* PIERWSZA SEKCJA */
 #start {
-    background: linear-gradient(rgba(17, 90, 18, 0.8), rgba(189, 1, 123, 0.5)), url(../img/brand-4205-hack-your-career-with-cognitive-science.png);
+    background: linear-gradient(rgba(17, 90, 18, 0.8), rgba(189, 1, 123, 0.5)), url(/assets/brand-4205-hack-your-career-with-cognitive-science.png);
     min-height: 100vh;
     background-position: center;
     background-attachment: fixed;
