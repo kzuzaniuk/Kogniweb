@@ -83,7 +83,7 @@ section {
     font-weight: 700;
 }
 
-#home p {
+#start p {
     max-width: 550px;
     margin: 24px auto;
 }
@@ -116,6 +116,107 @@ section {
     /* align-items: center; */
 }
 
+#temp2 .container {
+  /* min-height: 100vh; */
+  /* width: 100%; */
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 5% 0; */
+  margin-bottom: 5%;
+}
+
+.timeline p {
+  color: white;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 20px;
+  border-style: dotted;
+  /* background-color: #1e1f22; */
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 768px) {
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 52%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    background: linear-gradient(rgba(17, 90, 18, 0.641),rgba(189, 1, 123, 0.5));
+  }
+  .timeline ul li {
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+  /* .timeline ul li::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    top: 0px;
+  } */
+  .timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+  .timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+  .timeline ul li:hover::before {
+    background-color: aqua;
+  }
+}
+
 /* SEKCJA 3 */
 #temp3 {
     min-height: 100vh;
@@ -132,6 +233,88 @@ section {
   margin-bottom: 5%;
 }
 
+/* SEKCJA ZESPOLY NAUKOWE */
+.naukowe {
+  min-height: 100vh;
+  background: linear-gradient(rgba(118, 208, 250, 0.877), rgba(250, 160, 118, 0.508));
+}
+
+.teams {
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+  margin-bottom: 50px
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 300
+}
+
+.icon {
+  position: relative;
+  bottom: 11px
+}
+
+.mt-100 {
+  margin-top: 100px
+}
+
+.profile img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%
+}
+
+.profile-ccrg img {
+  width: 215px;
+  height: auto;
+}
+
+.card {
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
+}
+
+.card-body {
+  position: relative;
+  bottom: 35px
+}
+
+.btn {
+  margin-top: 36px;
+  margin-bottom: 45px;
+  background-color: #AB47BC;
+  border: none;
+  color: #fff
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  color: #fff
+}
+
+.header {
+  padding-top: 40px
+}
+
+
+/* SEKCJA PRACA */
+
+#praca {
+  min-height: 100vh;
+  background: linear-gradient(rgba(250, 160, 118, 0.51), rgba(160, 118, 250, 0.545)), url(https://coda.newjobs.com/api/imagesproxy/ms/cms/content30/images/Turning-Down-A-Job-After-Accepting-It.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  display: flex;
+  align-items: center;
+}
 
 /* PRZYCISKI */
 .btn {
@@ -204,105 +387,9 @@ section {
  } */
 
 
- #temp2 .container {
-   /* min-height: 100vh; */
-   /* width: 100%; */
-   /* text-align: center; */
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   /* padding: 5% 0; */
-   margin-bottom: 5%;
- }
-
  
- .timeline {
-   width: 80%;
-   height: auto;
-   max-width: 800px;
-   margin: 0 auto;
-   position: relative;
- }
- 
- .timeline ul {
-   list-style: none;
- }
- .timeline ul li {
-   padding: 20px;
-   border-style: dotted;
-   /* background-color: #1e1f22; */
-   color: white;
-   border-radius: 10px;
-   margin-bottom: 20px;
- }
- .timeline ul li:last-child {
-   margin-bottom: 0;
- }
- .timeline-content h1 {
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 30px;
-   margin-bottom: 10px;
- }
- .timeline-content p {
-   font-size: 16px;
-   line-height: 30px;
-   font-weight: 300;
- }
 
- @media only screen and (min-width: 768px) {
-   .timeline:before {
-     content: "";
-     position: absolute;
-     top: 0;
-     left: 52%;
-     transform: translateX(-50%);
-     width: 2px;
-     height: 100%;
-     /* background-color: rgb(0, 0, 0); */
-     background: linear-gradient(rgba(17, 90, 18, 0.641),rgba(189, 1, 123, 0.5));
-   }
-   .timeline ul li {
-     width: 50%;
-     position: relative;
-     margin-bottom: 50px;
-   }
-   .timeline ul li:nth-child(odd) {
-     float: left;
-     clear: right;
-     transform: translateX(-30px);
-     border-radius: 20px 0px 20px 20px;
-   }
-   .timeline ul li:nth-child(even) {
-     float: right;
-     clear: left;
-     transform: translateX(30px);
-     border-radius: 0px 20px 20px 20px;
-   }
-   /* .timeline ul li::before {
-     content: "";
-     position: absolute;
-     height: 20px;
-     width: 20px;
-     border-radius: 50%;
-     background-color: white;
-     top: 0px;
-   } */
-   .timeline ul li:nth-child(odd)::before {
-     transform: translate(50%, -50%);
-     right: -30px;
-   }
-   .timeline ul li:nth-child(even)::before {
-     transform: translate(-50%, -50%);
-     left: -30px;
-   }
-   .timeline ul li:hover::before {
-     background-color: aqua;
-   }
- }
-
-
+/* PRZYCISK Z MÓZGIEM */
 
 @media screen and (max-width: 700px) {
   body {
