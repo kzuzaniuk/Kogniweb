@@ -1,6 +1,6 @@
 # Project Title
 
-Strona Kierunku Kognitywistyka Komunikacji
+Strona Kierunku Kognitywistyka Komunikacji. [demo](https://i3909.gitlab.io/kogni-one-pager/)
 
 ## Description
 
